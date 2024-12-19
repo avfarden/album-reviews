@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Album Reviews</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            background-color: #34495e;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .review {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            padding: 1rem;
+        }
+        .review h2 {
+            margin-top: 0;
+        }
+        .review img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #2c3e50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Album Reviews</h1>
+        <p>Your favorite albums, reviewed!</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Genres</a>
+        <a href="#">Top Picks</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <article class="review">
+            <h2>Album Title by Artist</h2>
+            <img src="https://via.placeholder.com/600x400" alt="Album Cover">
+            <p><strong>Genre:</strong> Rock</p>
+            <p><strong>Release Date:</strong> January 1, 2024</p>
+            <p>This album takes listeners on a journey through melodious highs and introspective lows, with powerful lyrics and unforgettable tunes.</p>
+        </article>
+        <article class="review">
+            <h2>Another Album by Another Artist</h2>
+            <img src="https://via.placeholder.com/600x400" alt="Album Cover">
+            <p><strong>Genre:</strong> Pop</p>
+            <p><strong>Release Date:</strong> February 15, 2024</p>
+            <p>An upbeat collection of tracks that will have you dancing through the day and singing along to every chorus.</p>
+        </article>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Album Reviews. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
